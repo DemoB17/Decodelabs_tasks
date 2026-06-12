@@ -6,6 +6,65 @@ Using SQL, the dataset was explored to identify missing values, detect duplicate
 
 The analysis was structured to simulate real-world business reporting, helping to translate raw data into meaningful insights that support data-driven decision-making.
 
+     📌 Data Cleaning & Preparation
+
+Before performing analysis, the dataset was cleaned and prepared to ensure accuracy, consistency, and reliability of insights.
+
+
+     🔹 1. Handling Missing Values
+
+Missing values were identified in key columns such as customer_id, product_name, and total_amount.
+
+Records with missing critical identifiers were removed
+For non-critical fields, missing values were replaced where appropriate
+
+Why this matters:
+Ensures analysis is not biased or incomplete due to missing data.
+
+     
+     🔹 2. Removing Duplicates
+
+Duplicate records were checked and removed to avoid inflating sales or transaction counts.
+
+SELECT DISTINCT *
+FROM sales;
+
+Why this matters:
+Prevents overestimation of revenue and incorrect business conclusions.
+
+
+     🔹 3. Standardizing Data Formats
+
+Inconsistent formats were corrected:
+
+Dates were standardized to YYYY-MM-DD
+Text fields (e.g., product names, payment methods) were cleaned for consistency (trimmed spaces, unified casing)
+UPDATE sales
+SET payment_method = TRIM(LOWER(payment_method));
+
+Why this matters:
+Ensures grouping and filtering work correctly in analysis.
+
+
+     🔹 4. Fixing Data Types
+
+Columns such as total_amount and quantity were converted to correct numeric formats where necessary.
+
+Why this matters:
+Prevents calculation errors during aggregation (SUM, AVG, etc.).
+
+
+     🔹 5. Handling Outliers (if applicable)
+
+Extreme values were reviewed to ensure they were valid transactions and not data entry errors.
+
+Why this matters:
+Outliers can distort averages and trends.
+
+
+     🔹 6. Final Clean Dataset
+
+After cleaning, a structured dataset was used for analysis in SQL, Excel, and visualization tools.
 🔍 Key Insights
 
       💰 Revenue Performance
