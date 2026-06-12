@@ -30,3 +30,25 @@ Discounts appear to influence customer purchasing behavior, but not all coupons 
 
       📌 Conclusion
 This project demonstrates how SQL can be used to transform raw sales data into actionable business insights. The analysis provides a foundation for understanding customer segmentation, revenue drivers, and sales trends, which are essential for making informed business decisions.
+
+  ## Analysis Outputs
+
+### Total Revenue
+
+![Total Revenue](screenshots/Total_revenue.jpeg)
+
+### Yearly Sales Analysis
+
+![Yearly Sales Analysis](screenshots/Yearly sales Analysis.jpeg)
+
+### Customer Revenue Analysis
+
+![Customer Revenue Analysis](screenshots/customer_revenue.png)
+
+### Payment Method Analysis
+
+![Payment Method Analysis](screenshots/Payment_method_analysis.jpeg)
+
+### Coupon Analysis
+
+![Coupon Analysis](screenshots/Coupon_analysis.jpeg)
