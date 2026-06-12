@@ -65,7 +65,8 @@ Outliers can distort averages and trends.
      🔹 6. Final Clean Dataset
 
 After cleaning, a structured dataset was used for analysis in SQL, Excel, and visualization tools.
-🔍 Key Insights
+
+     🔍 Key Insights
 
       💰 Revenue Performance
 The dataset shows consistent revenue generation across customers, with a small group of customers contributing a significantly higher share of total revenue.
