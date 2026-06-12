@@ -1,1 +1,15 @@
+      Payment Method Analysis
+SELECT payment_method,
+       COUNT(*) AS transactions,
+       SUM(revenue) AS total_revenue
+FROM sales_data
+GROUP BY payment_method
+ORDER BY total_revenue DESC;
 
+      Yearly Sales Analysis
+SELECT 
+    EXTRACT(YEAR FROM order_date) AS year,
+    SUM(revenue) AS yearly_revenue
+FROM sales_data
+GROUP BY year
+ORDER BY year;
