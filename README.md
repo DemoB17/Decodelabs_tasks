@@ -16,12 +16,13 @@ Most customers fall into a lower spending range, suggesting opportunities for ta
 📅 Time-Based Trends
 Monthly and yearly analysis reveals fluctuations in sales performance, highlighting peak sales periods.
 Certain months consistently perform better, indicating possible seasonal buying behavior.
-💳 Payment Method Analysis
+          💳 Payment Method Analysis
 Some payment methods are used more frequently than others, showing customer preference trends.
 Certain payment channels generate higher revenue, making them more valuable for business focus.
-🎟️ Coupon / Discount Impact
+           🎟️ Coupon / Discount Impact
 Coupon usage varies across transactions, with some codes generating higher revenue than others.
 Discounts appear to influence customer purchasing behavior, but not all coupons contribute equally to revenue growth.
-📌 Conclusion
+
+             📌 Conclusion
 
 This project demonstrates how SQL can be used to transform raw sales data into actionable business insights. The analysis provides a foundation for understanding customer segmentation, revenue drivers, and sales trends, which are essential for making informed business decisions.
