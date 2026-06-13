@@ -8,19 +8,28 @@ Objective
 
 To analyze customer behavior, sales performance, and product trends using Excel-based analysis.
 
-Key Areas of Analysis
+-- EDA Analysis Performed
+- Revenue distribution
+- Product performance
+- Customer purchasing patterns
+- Payment method preferences
+- Coupon usage behavior
+- Order status distribution
+- Referral source effectiveness
+- Monthly and yearly sales trends
 
-- Sales performance trends
-- Customer purchasing behavior
-- Product/category insights
-- Payment and coupon usage patterns
 
 Key Insights
 
-- Identified top-performing products and categories
-- Observed sales trends over time
-- Analyzed customer purchase behavior patterns
-- Evaluated the impact of coupons and discounts
+1. Certain products generated significantly higher revenue than others.
+
+2. Credit Card transactions represented the largest share of customer payments.
+
+3. Revenue showed noticeable fluctuations across different months.
+
+4. Coupon campaigns influenced purchasing behavior and order values.
+
+5. A small group of customers contributed a substantial portion of total revenue.
 
 Tools Used
 
